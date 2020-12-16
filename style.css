@@ -9,10 +9,18 @@
   padding: 12px;
 }
 
-/* This is setting the background color of just the body part of my site */
+/* This is setting the background color of just the body part of my site as well as keeping the content above the footer with the margin-bottom line */
 body {
   background-color: #97BC62FF;
    margin-bottom: 100px;
+}
+
+hr{
+    border:0;
+    margin:0;
+    width:100%;
+    height:2px;
+    background:black;
 }
 
 /* I wanted to implement a black header on my page and footer. I needed to google the correct position code for CSS */
@@ -33,6 +41,7 @@ footer{
     bottom: 0;
     left: 0;
 }
+/* Header text settings for h1-h3 as well as for paragraphs */
 h1 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;;
